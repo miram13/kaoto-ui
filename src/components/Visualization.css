@@ -37,16 +37,19 @@
     top: 40%;
 }
 
-.stepNode__Delete{
+.stepNode__Delete {
     position: absolute;
-    left: -22px;
-    top: 40%;
+    left: 0px;
+    top: 0%;
+    
 }
+
 .stepNode__Icon {
     position: relative;
     top: 55%;
     transform: translateY(-50%);
 }
+
 
 .stepNode__Icon img, .stepNode__Icon svg {
     height: 40px;
@@ -55,6 +58,7 @@
     right: 0;
     width: 40px;
 }
+
 
 .stepNode__Insert {
     height: 6px;

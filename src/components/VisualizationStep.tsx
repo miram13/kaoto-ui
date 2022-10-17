@@ -94,6 +94,7 @@ const VisualizationStep = ({ data }: NodeProps<IVizStepNodeData>) => {
 
           {/* PLUS BUTTON TO ADD STEP */}
           {data.step.type !== 'END' && isLastNode && (
+            
             <Popover
               appendTo={() => document.body}
               aria-label="Search for a step"
@@ -129,6 +130,7 @@ const VisualizationStep = ({ data }: NodeProps<IVizStepNodeData>) => {
           >
             <TrashIcon />
           </button>
+          
 
           {/* VISUAL REPRESENTATION OF STEP WITH ICON */}
           <div className={'stepNode__Icon stepNode__clickable'}>
